@@ -1,0 +1,15 @@
+<!--------------------- 20181025 made --------------------->
+
+LDCalculatedBySystem （20个字符左右） // "Calculated by system" 20
+totalOrdersOnSelectedDay （10-15字符） // "T. Orders (SD)" 14
+pendingOrdersToday （10-15字符） // "Pending Today" 13
+handledOrdersToday （10-15字符） // "Handled Today" 13
+userDepartment （10-12字符） // "User Dept." 10
+estimatedStartTime （15-17字符） // "Est. Start Time" 15
+estimatedCompletionTime （15-17字符） // "Est. CMPLT Time" 15
+actualStartTime （15-17字符） // 不变 17
+actualEndTime （15-17字符） // "Actual CMPLT Time" 17
+integer12Fractional6Alrt （35字符左右） // "Length limit: 12 integers & 6 decimals" 38
+integer8Fractional2Alrt （35字符左右） // "Length limit: 8 integers & 2 decimals" 37
+
+

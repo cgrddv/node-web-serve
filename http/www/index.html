@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <script data-ionic="inject">
+    (function(w){var i=w.Ionic=w.Ionic||{};i.version='3.5.3';i.angular='4.1.3';i.staticDir='build/';})(window);
+  </script>
+  <meta charset="UTF-8">
+  <title>HiFM</title>
+  <meta name="viewport" content="initial-scale=1,user-scalable=no, width=device-width, height=device-height, viewport-fit=cover">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+  <meta name="theme-color" content="#4e8ef7">
+
+  <!-- 外部js文件 -->
+  <script src="assets/lib/three.min.js"></script>
+  <script src="assets/lib/jquery.min.js"></script>
+  <script src="assets/lib/echarts.min.js"></script>
+  <script src="assets/lib/bootstrap.min.js"></script>
+  <script src="assets/lib/vconsole.min.js"></script>
+  <script src="assets/lib/iosSelect.js"></script>
+  <script src="assets/lib/pinyin_js/pinyin_dict_firstletter.js"></script>
+  <script src="assets/lib/pinyin_js/pinyinUtil.js"></script>
+
+  <!-- 3dmax 依赖-->
+  <script src="assets/lib/loaders/MTLLoader.js"></script>
+  <script src="assets/lib/loaders/OBJLoader.js"></script>
+  <script src="assets/lib/loaders/DDSLoader.js"></script>
+  <script src="assets/lib/OrbitControls.js"></script>
+
+  <!-- cordova.js required for cordova apps -->
+  <script src="cordova.js"></script>
+
+  <!-- un-comment this code to enable service worker
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.error('Error', err));
+    }
+  </script>-->
+
+  <link rel="stylesheet" href="assets/styles/weui.min.css">
+  <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/styles/ionic.css">
+  <link rel="stylesheet" href="assets/styles/iosSelect.css">
+  <link href="build/main.css" rel="stylesheet">
+
+  <script src="assets/lib/iscroll.js"></script>
+
+</head>
+<body>
+
+  <!-- Ionic's root component and where the app will load -->
+  <ion-app></ion-app>
+
+  <!-- The polyfills js is generated during the build process -->
+  <script src="build/polyfills.js"></script>
+
+  <!-- The vendor js is generated during the build process
+       It contains all of the dependencies in node_modules -->
+  <script src="build/vendor.js"></script>
+
+  <!-- The main bundle js is generated during the build process -->
+  <script src="build/main.js"></script>
+
+</body>
+</html>
